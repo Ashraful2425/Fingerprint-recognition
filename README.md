@@ -30,9 +30,9 @@ Figure 1 shows the AI output of detecting which user is using fingerprint.
 
 ## C.  DATASET
 
-In this project, we’ll discuss our two-phase COVID-19 face mask detector, detailing how our computer vision/deep learning pipeline will be implemented.
+In this project, we’ll discuss our three-phase fingerprint detector, detailing how our computer vision/deep learning pipeline will be implemented.
 
-From there, we’ll review the dataset we’ll be using to train our custom face mask detector.
+From there, we’ll review the dataset we’ll be using to train our custom fingerprint detector.
 
 I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
 
