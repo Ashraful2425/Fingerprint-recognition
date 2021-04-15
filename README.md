@@ -22,6 +22,10 @@ Our goal was to contribute to this field and develop a novel algorithm employing
 For purposes of evaluation we used more fingerprint databases with varying image quality, and the performance of our system was evaluated using FMR/FNMR and ROC indicators. From the obtained results, we may draw conclusions about a very positive impact of neural networks on overall recognition rate, specifically in low quality.
 
 
+![Coding](https://miro.medium.com/max/1400/1*fyfSOSKswsmV0n7Wdy6R4Q.jpeg)
+Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+
+
 ## C.  DATASET
 
 In this project, we’ll discuss our two-phase COVID-19 face mask detector, detailing how our computer vision/deep learning pipeline will be implemented.
