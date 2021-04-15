@@ -23,7 +23,9 @@ For purposes of evaluation we used more fingerprint databases with varying image
 
 
 ![Coding](https://github.com/Ashraful2425/Fingerprint-recognition/issues/3#issue-859320811)
-Figure 1 shows the AI output of detecting which user is not wearing a face mask or inappropriate face mask.
+Figure 1 shows the AI output of detecting which user is using fingerprint.
+
+
 
 
 ## C.  DATASET
