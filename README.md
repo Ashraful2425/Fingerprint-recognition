@@ -22,7 +22,7 @@ Our goal was to contribute to this field and develop a novel algorithm employing
 For purposes of evaluation we used more fingerprint databases with varying image quality, and the performance of our system was evaluated using FMR/FNMR and ROC indicators. From the obtained results, we may draw conclusions about a very positive impact of neural networks on overall recognition rate, specifically in low quality.
 
 
-![Coding]![crm-emotion_recognition_mobile](https://user-images.githubusercontent.com/82527970/114949775-84b7d580-9e73-11eb-953f-9a4aa2e7128d.png)
+![Coding]![crm-fingerprint_recognition_mobile]
 Figure 1 shows the AI output of detecting which user is using fingerprint.
 
 
