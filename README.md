@@ -34,33 +34,11 @@ In this project, we’ll discuss our three-phase fingerprint detector, detailing
 
 From there, we’ll review the dataset we’ll be using to train our custom fingerprint detector.
 
-I’ll then show you how to implement a Python script to train a face mask detector on our dataset using Keras and TensorFlow.
+I’ll then show you how to implement a Python script to train a fingerprint detector on our dataset using Keras and TensorFlow.
 
-We’ll use this Python script to train a face mask detector and review the results.
-
-Given the trained COVID-19 face mask detector, we’ll proceed to implement two more additional Python scripts used to:
-
-- Detect COVID-19 face masks in images
-- Detect face masks in real-time video streams
-
-We’ll wrap up the post by looking at the results of applying our face mask detector.
+We’ll use this Python script to train fingerprint detector and review the results.
 
 
-There is two-phase COVID-19 face mask detector as shown in Figure 2:
-
-![Figure 2](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_phases.png)
-Figure 2: Phases and individual steps for building a COVID-19 face mask detector with computer vision and deep learning 
-
-In order to train a custom face mask detector, we need to break our project into two distinct phases, each with its own respective sub-steps (as shown by Figure 1 above):
-
-- Training: Here we’ll focus on loading our face mask detection dataset from disk, training a model (using Keras/TensorFlow) on this dataset, and then serializing the face mask detector to disk
-
-- Deployment: Once the face mask detector is trained, we can then move on to loading the mask detector, performing face detection, and then classifying each face as with_mask or without_mask
-
-We’ll review each of these phases and associated subsets in detail in the remainder of this tutorial, but in the meantime, let’s take a look at the dataset we’ll be using to train our COVID-19 face mask detector.
-
-
-Our COVID-19 face mask detection dataset as shown in Figure 3:
 
 ![Figure 3](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detection_dataset.jpg)
 
