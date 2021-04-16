@@ -26,17 +26,14 @@ For purposes of evaluation we used more fingerprint databases with varying image
 Figure 1 shows the AI output of detecting which user is using fingerprint.
 
 
-
-
 ## C.  DATASET
 
 In this project, we’ll discuss our three-phase fingerprint detector, detailing how our computer vision/deep learning pipeline will be implemented.
+Level-1 pattern represents overall fingerprint ridge flow. These patterns are usually divided into 5 categories (left loop, right loop, whorl, arch and tented arch) [13]. Global ridge flow is a well-defined pattern and can be retrieved easily even when the image quality is not sufficient. After successfully resolving Level-1 pattern category the whole search space in fingerprint database is narrowed down to only specific fingerprint pattern subset what drastically reduces computation time [13]. In [5], authors extensively studied and compared performance of more state-of-the-art Level-1 classification techniques. We refer to this process as coarse fingerprint classification and it is discussed in Section 3.2 in more detail.
 
-From there, we’ll review the dataset we’ll be using to train our custom fingerprint detector.
+Level-2 features or minutiae are local ridge characteristics that make every fingerprint a unique pattern. The premise of fingeprint uniqueness has been generally accepted, but still lacks proper scientific validation. Individuality of fingerprints based on Level-2 features as well as probability of correspondence of random fingerprints is discussed in [15]. These features are used by our fingerprint recognition system presented in this paper. More Level-2 feature types are distinguished from basic shapes to very complex and rare patterns with extremely high discrimination power in fingerprint matching process (see Figure 2). Level-2 features are mainly characterized by the spatial location in th  image,their orientation and their shape type [13]. The two Level-2 features mostly used are the ridge ending, referred to as termination, and the bifurcation, which refers to a ridge splitting into two ridges. Despite such a wide range of Level-2 patterns, only ridge terminations and bifurcations are preferred in majority of commercial or civil fingerprint identification systems thanks to simplicity of their automated extraction. Fingerprints are considered identical when a matching algorithm finds sufficient number of correspondences of Level-2 features. Probably the best known and most widely used matching algorithm is called BOZORTH3 that is a part of NIST Biometric Image Software. It uses two sets of Level-2 features to establish a similarity score between two fingerprints [21].
 
-I’ll then show you how to implement a Python script to train a fingerprint detector on our dataset using Keras and TensorFlow.
 
-We’ll use this Python script to train fingerprint detector and review the results.
 
 
 
