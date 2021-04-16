@@ -113,7 +113,7 @@ From there, open up a terminal, and execute the following command:
 
 ![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/face_mask_detector_plot.png)
 
-Figure 4: Figure 10: COVID-19 face mask detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
+Figure 4: Figure 10: Fingerprint detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
 As you can see, we are obtaining ~99% accuracy on our test set.
 
@@ -124,9 +124,9 @@ Given these results, we are hopeful that our model will generalize well to image
 
 ## F.  RESULT AND CONCLUSION
 
-Detecting COVID-19 face masks with OpenCV in real-time
+Detecting Fingerprint masks with OpenCV in real-time
 
-You can then launch the mask detector in real-time video streams using the following command:
+You can then launch the fingerprint detector in real-time video streams using the following command:
 - $ python detect_mask_video.py
 - [INFO] loading face detector model...
 - INFO] loading face mask detector model...
@@ -134,9 +134,9 @@ You can then launch the mask detector in real-time video streams using the follo
 
 [![Figure5](https://img.youtube.com/vi/wYwW7gAYyxw/0.jpg)](https://www.youtube.com/watch?v=wYwW7gAYyxw "Figure5")
 
-Figure 5: Mask detector in real-time video streams
+Figure 5: Fingerprint detector in real-time video streams
 
-In Figure 5, you can see that our face mask detector is capable of running in real-time (and is correct in its predictions as well.
+In Figure 5, you can see that our fingerprint detector is capable of running in real-time (and is correct in its predictions as well.
 
 
 
