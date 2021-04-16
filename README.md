@@ -141,19 +141,17 @@ In Figure 5, you can see that our fingerprint detector is capable of running in 
 
 ## G.   PROJECT PRESENTATION 
 
-In this project, you learned how to create a COVID-19 face mask detector using OpenCV, Keras/TensorFlow, and Deep Learning.
+In this project, you learned how to create a fingerprint detector using OpenCV, Keras/TensorFlow, and Deep Learning.
 
-To create our face mask detector, we trained a two-class model of people wearing masks and people not wearing masks.
+We fine-tuned MobileNetV2 on our fingerprint dataset and obtained a classifier that is ~99% accurate.
 
-We fine-tuned MobileNetV2 on our mask/no mask dataset and obtained a classifier that is ~99% accurate.
-
-We then took this face mask classifier and applied it to both images and real-time video streams by:
+We then took this fingerprint classifier and applied it to both images and real-time video streams by:
 
 - Detecting faces in images/video
 - Extracting each individual face
 - Applying our face mask classifier
 
-Our face mask detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
+Our fingerprint detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
 [![demo](https://img.youtube.com/vi/-p7HGwOWxtg/0.jpg)](https://www.youtube.com/watch?v=-p7HGwOWxtg "demo")
 
