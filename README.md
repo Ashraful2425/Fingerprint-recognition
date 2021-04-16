@@ -111,7 +111,7 @@ From there, open up a terminal, and execute the following command:
 |weighted avg|0.99|0.99|0.99|276|
 
 
-![Figure 4](https://www.pyimagesearch.com/wp-content/uploads/2020/04/fingerprint_detector_plot.png)
+![Figure 4]
 
 Figure 4: Figure 10: Fingerprint detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
