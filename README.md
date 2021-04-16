@@ -106,8 +106,8 @@ From there, open up a terminal, and execute the following command:
 |      |    precision    | recall| f1-score | support |
 |------|-----------------|-------|----------|---------|
 
-|accuracy| | |0.99|276|
-|macro avg|0.99|0.99|0.99|276|
+|accuracy    |0.99|0.99|0.99|276|
+|macro avg   |0.99|0.99|0.99|276|
 |weighted avg|0.99|0.99|0.99|276|
 
 
