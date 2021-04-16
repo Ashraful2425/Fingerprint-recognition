@@ -111,7 +111,8 @@ From there, open up a terminal, and execute the following command:
 |weighted avg|0.99|0.99|0.99|276|
 
 
-![Figure 4]!
+![Figure 4]![f1cfc4fd-0950-4420-9fb8-31c7d2879e3a](https://user-images.githubusercontent.com/82527948/114966818-ed1faa80-9ea5-11eb-9099-bad8cdbfee3a.jpg)
+
 
 Figure 4: Figure 10: Fingerprint detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
