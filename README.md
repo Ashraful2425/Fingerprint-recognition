@@ -147,9 +147,9 @@ We fine-tuned MobileNetV2 on our fingerprint dataset and obtained a classifier t
 
 We then took this fingerprint classifier and applied it to both images and real-time video streams by:
 
-- Detecting faces in images/video
-- Extracting each individual face
-- Applying our face mask classifier
+- Detecting fingerprint in images/video
+- Extracting each individual fingerprint
+- Applying our fingerprint classifier
 
 Our fingerprint detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
