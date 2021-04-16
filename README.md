@@ -43,27 +43,6 @@ At early stages of development, we used multiple structural approaches for featu
 ![All Figure](https://user-images.githubusercontent.com/82527948/114956713-01f24300-9e92-11eb-83de-3c8ad0e535da.png)
 
 
-
-Figure 3: A face mask detection dataset consists of “with mask” and “without mask” images. 
-
-The dataset we’ll be using here today was created by PyImageSearch reader Prajna Bhandary.
-
-This dataset consists of 1,376 images belonging to two classes:
-
-- with_mask: 690 images
-- without_mask: 686 images
-
-Our goal is to train a custom deep learning model to detect whether a person is or is not wearing a mask.
-
-How was our face mask dataset created?
-Prajna, like me, has been feeling down and depressed about the state of the world — thousands of people are dying each day, and for many of us, there is very little (if anything) we can do.
-
-To help keep her spirits up, Prajna decided to distract herself by applying computer vision and deep learning to solve a real-world problem:
-
-- Best case scenario — she could use her project to help others
-- Worst case scenario — it gave her a much needed mental escape
-
-
 ## D.   PROJECT STRUCTURE
 
 The following directory is our structure of our project:
