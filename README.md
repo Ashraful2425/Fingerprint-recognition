@@ -153,8 +153,8 @@ We then took this fingerprint classifier and applied it to both images and real-
 
 Our fingerprint detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
 
-[![demo](https://img.youtube.com/vi/-p7HGwOWxtg/0.jpg)](https://www.youtube.com/watch?v=-p7HGwOWxtg "demo")
+[![demo](https://img.youtube.com/vi/Zaq0QAsfXOs/0.jpg)](https://www.youtube.com/watch?v=Zaq0QAsfXOs "demo")
 
 
-
+https://www.youtube.com/watch?v=Zaq0QAsfXOs
 
