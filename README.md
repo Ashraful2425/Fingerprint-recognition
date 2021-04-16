@@ -20,8 +20,6 @@
 Performance of modern automated fingerprint recognition systems is heavily influenced by accuracy of their feature extraction algorithm. Nowadays, there are more approaches to fingerprint feature extraction with acceptable results. Problems start to arise in low quality conditions where majority of the traditional methods based on analyzing texture of fingerprint cannot tackle this problem so effectively as artificial neural networks. Many papers have demonstrated uses of neural networks in fingerprint recognition, but there is a little work on using them as Level-2 feature extractors.
 Our goal was to contribute to this field and develop a novel algorithm employing neural networks as extractors of discriminative Level-2 features commonly used to match fingerprints. In this work, we investigated possibilities of incorporating artificial neural networks into fingerprint recognition process, implemented and documented our own software solution for fingerprint identification based on neural networks whose impact on feature extraction accuracy and overall recognition rate was evaluated. The result of this research is a fully functional software system for fingerprint recognition that consists of fingerprint sensing module using high resolution sensor, image enhancement module responsible for image quality restoration, Level-1 and Level-2 feature extraction module based on neural network, and finally fingerprint matching module using the industry standard BOZORTH3 matching algorithm.
 For purposes of evaluation we used more fingerprint databases with varying image quality, and the performance of our system was evaluated using FMR/FNMR and ROC indicators. From the obtained results, we may draw conclusions about a very positive impact of neural networks on overall recognition rate, specifically in low quality.
-
-
 ![Coding]!![Fingerprint](https://user-images.githubusercontent.com/82527948/114950397-812d4a00-9e85-11eb-8008-161ceca99a00.jpg)
 Figure 1 shows the AI output of detecting which user is using fingerprint.
 
@@ -47,7 +45,6 @@ At early stages of development, we used multiple structural approaches for featu
 
 The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
-- .
 - ├── dataset
 - │   ├── 
 - │   └── 
@@ -67,7 +64,6 @@ The following directory is our structure of our project:
 The dataset/ directory contains the data described in fingerprint detection dataset” section.
 
 In the next two sections, we will train our fingerprint detector.
-
 
 ## E   TRAINING THE FINGERPRINT DETECTION
 
@@ -108,10 +104,7 @@ From there, open up a terminal, and execute the following command:
 |accuracy    |03|18|10|276|
 |loops       |50|54|52|276|
 |whorls      |48|28|38|276|
-
-
 ![Figure 4]![f1cfc4fd-0950-4420-9fb8-31c7d2879e3a](https://user-images.githubusercontent.com/82527948/114966818-ed1faa80-9ea5-11eb-9099-bad8cdbfee3a.jpg)
-
 
 Figure 4: Figure 10: Fingerprint detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
@@ -131,7 +124,6 @@ You can then launch the fingerprint detector in real-time video streams using th
 - [INFO] loading face detector model...
 - [INFO] loading face mask detector model...
 - [INFO] starting video stream...
-
 [![Figure5](https://img.youtube.com/vi/57tSzqRunFI/0.jpg)](https://www.youtube.com/watch?v=57tSzqRunFI"Figure5")
 
 Figure 5: Fingerprint detector in real-time video streams
@@ -152,7 +144,6 @@ We then took this fingerprint classifier and applied it to both images and real-
 - Applying our fingerprint classifier
 
 Our fingerprint detector is accurate, and since we used the MobileNetV2 architecture, it’s also computationally efficient, making it easier to deploy the model to embedded systems (Raspberry Pi, Google Coral, Jetosn, Nano, etc.).
-
 [![demo](https://img.youtube.com/vi/Zaq0QAsfXOs/0.jpg)](https://www.youtube.com/watch?v=Zaq0QAsfXOs "demo")
 
 
