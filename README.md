@@ -49,40 +49,29 @@ The following directory is our structure of our project:
 - $ tree --dirsfirst --filelimit 10
 - .
 - ├── dataset
-- │   ├── with_mask [690 entries]
-- │   └── without_mask [686 entries]
+- │   ├── 
+- │   └── 
 - ├── examples
 - │   ├── example_01.png
 - │   ├── example_02.png
 - │   └── example_03.png
-- ├── face_detector
+- ├── fingerprint_detector
 - │   ├── deploy.prototxt
 - │   └── res10_300x300_ssd_iter_140000.caffemodel
-- ├── detect_mask_image.py
-- ├── detect_mask_video.py
-- ├── mask_detector.model
+- ├── detect_fingerprint_image.py
+- ├── detect_fingerprint_video.py
+- ├── fingerprint_detector.model
 - ├── plot.png
-- └── train_mask_detector.py
-- 5 directories, 10 files
+- └── train_fingerprint_detector.py
+
+The dataset/ directory contains the data described in fingerprint detection dataset” section.
+
+In the next two sections, we will train our fingerprint detector.
 
 
-The dataset/ directory contains the data described in the “Our COVID-19 face mask detection dataset” section.
+## E   TRAINING THE FINGERPRINT DETECTION
 
-Three image examples/ are provided so that you can test the static image face mask detector.
-
-We’ll be reviewing three Python scripts in this tutorial:
-
-- train_mask_detector.py: Accepts our input dataset and fine-tunes MobileNetV2 upon it to create our mask_detector.model. A training history plot.png containing accuracy/loss curves is also produced
-- detect_mask_image.py: Performs face mask detection in static images
-- detect_mask_video.py: Using your webcam, this script applies face mask detection to every frame in the stream
-
-In the next two sections, we will train our face mask detector.
-
-
-
-## E   TRAINING THE COVID-19 FACE MASK DETECTION
-
-We are now ready to train our face mask detector using Keras, TensorFlow, and Deep Learning.
+We are now ready to train our fingerprint detector using Keras, TensorFlow, and Deep Learning.
 
 From there, open up a terminal, and execute the following command:
 
@@ -116,8 +105,7 @@ From there, open up a terminal, and execute the following command:
 
 |      |    precision    | recall| f1-score | support |
 |------|-----------------|-------|----------|---------|
-|with_mask|0.99|1.00|0.99|138|
-|without_mask|1.00|0.99|0.99|138|
+
 |accuracy| | |0.99|276|
 |macro avg|0.99|0.99|0.99|276|
 |weighted avg|0.99|0.99|0.99|276|
