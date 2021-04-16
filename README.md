@@ -156,5 +156,5 @@ Our fingerprint detector is accurate, and since we used the MobileNetV2 architec
 [![demo](https://img.youtube.com/vi/Zaq0QAsfXOs/0.jpg)](https://www.youtube.com/watch?v=Zaq0QAsfXOs "demo")
 
 
-https://www.youtube.com/watch?v=Zaq0QAsfXOs
+
 
