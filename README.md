@@ -106,9 +106,9 @@ From there, open up a terminal, and execute the following command:
 |      |    precision    | recall| f1-score | support |
 |------|-----------------|-------|----------|---------|
 
-|accuracy    |0.99|0.99|0.99|276|
-|macro avg   |0.99|0.99|0.99|276|
-|weighted avg|0.99|0.99|0.99|276|
+|accuracy    |03|18|10|276|
+|loops       |50|54|52|276|
+|whorls      |48|28|38|276|
 
 
 ![Figure 4]![f1cfc4fd-0950-4420-9fb8-31c7d2879e3a](https://user-images.githubusercontent.com/82527948/114966818-ed1faa80-9ea5-11eb-9099-bad8cdbfee3a.jpg)
