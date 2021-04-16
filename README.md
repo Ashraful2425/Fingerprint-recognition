@@ -39,7 +39,8 @@ Level-3 features are microscopic level patterns that are almost exclusively used
 complete biometric system that performs fingerprint identification. 
 At early stages of development, we used multiple structural approaches for feature extraction like analyzing patterns in fingerprint skeletons or time consuming computation of local ridge curvature [18]. All of them turned out to be ineffective either in terms of time needed for computation or insufficient accuracy of recognition. To overcome this issue, we implemented a new neural networkbased algorithm for extraction of Level-2 features. Firstly, instead of exploring the entire image, our algorithm detects only critical image regions with high probability of Level-2 feature occurrence using Crossing Number method [13].
 
-![Figure](https://user-images.githubusercontent.com/82527948/114956387-5c3ed400-9e91-11eb-83a8-6108aaddae14.png)
+![Figure2](https://user-images.githubusercontent.com/82527948/114956387-5c3ed400-9e91-11eb-83a8-6108aaddae14.png)
+![All Figure](https://user-images.githubusercontent.com/82527948/114956713-01f24300-9e92-11eb-83de-3c8ad0e535da.png)
 
 
 
