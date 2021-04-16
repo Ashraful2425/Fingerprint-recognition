@@ -111,8 +111,7 @@ From there, open up a terminal, and execute the following command:
 |weighted avg|0.99|0.99|0.99|276|
 
 
-![Figure 4]![TTSR MS ID 555645 T002](https://user-images.githubusercontent.com/82527948/114965894-1c351c80-9ea4-11eb-82d1-11752e243fd5.png)
-
+![Figure 4]!
 
 Figure 4: Figure 10: Fingerprint detector training accuracy/loss curves demonstrate high accuracy and little signs of overfitting on the data
 
